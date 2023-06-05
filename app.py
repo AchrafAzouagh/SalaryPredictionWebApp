@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title='HowMuchSalary?', page_icon=':smiley:')
 from predict_page import show_predict_page
 from explore_page import show_explore_page
 
